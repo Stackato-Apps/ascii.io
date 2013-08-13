@@ -40,6 +40,7 @@ group :test, :development do
   gem 'guard-jasmine-headless-webkit'
   gem 'jasmine-rails'
   gem 'cane'
+  gem 'sqlite3'
 end
 
 group :test do
@@ -52,4 +53,6 @@ end
 group :production do
   gem 'unicorn'
   gem 'dalli'
+  gem 'mysql2'
+  gem 'activerecord-mysql-adapter'
 end

@@ -1,7 +1,5 @@
 name: ascii
-
 framework:
   type: buildpack
-
 services:
-  db: postgresql
+  db: mysql
